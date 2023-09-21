@@ -1,0 +1,63 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mycode}[2023/09/21 My Custom Package for school report]
+
+\RequirePackage{listings}
+\RequirePackage{xcolor}
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
+
+\lstdefinestyle{inline}{
+  basicstyle=\ttfamily,
+  breaklines=true,
+  columns=fullflexible,
+  backgroundcolor=\color{gray!10},
+}
+
+\RequirePackage[dvipdfmx]{graphicx}
+
+% Code is here ===================================================
+\lstnewenvironment{Code}[1][]
+{
+  \lstset{
+    language=c,
+    backgroundcolor=\color{gray!10},
+    captionpos=t, % キャプションを上に配置
+    numbers=left, % 行番号を表示
+    frame=none, % ソースコードを枠で囲む
+    basicstyle=\ttfamily, % ベースのフォントスタイル
+    #1 % その他のオプションを指定
+  }
+}
+{}
+
+\newcommand{\CodeInline}[1]{
+  \lstinline[style=inline]|#1|
+}
+
+% Fiugre is here =================================================
+
+\newcommand{\Figure}[3]{
+  \begin{figure}[h]
+    \centering
+    \includegraphics[#1]{#2}
+    \caption{#3}
+  \end{figure}
+}
+
+\endinput

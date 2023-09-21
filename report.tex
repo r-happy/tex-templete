@@ -1,48 +1,39 @@
 \documentclass{jsarticle}
 
+\usepackage{rhappy}
 \usepackage{arydshln}
-\usepackage[dvipdfmx]{graphicx}
 
-\usepackage{listings,jlisting}
-\lstset{
-  basicstyle={\ttfamily},
-  identifierstyle={\small},
-  commentstyle={\smallitshape},
-  keywordstyle={\small\bfseries},
-  ndkeywordstyle={\small},
-  stringstyle={\small\ttfamily},
-  frame={tb},
-  breaklines=true,
-  columns=[l]{fullflexible},
-  numbers=left,
-  xrightmargin=0zw,
-  xleftmargin=3zw,
-  numberstyle={\scriptsize},
-  stepnumber=1,
-  numbersep=1zw,
-  lineskip=-0.5ex
-  }
+% ---configure---
+\newcommand{\TITLE}{title is here}
+\newcommand{\NAME}{name is here}
+\newcommand{\CLASSNUMBER}{class number is here}
+\newcommand{\WEATHER}{weather is here}
+\newcommand{\TEMPERATURE}{temperature is here}
+\newcommand{\HUMIDITY}{humidity is here}
+\title{\TITLE}
+\author{}
 
-  % ---
-  \title{}
-  \author{}
-  \date{}
-  % ---
-
-  % \begin{figure}[h]
-  %   \centering
-  %   \includegraphics[]{./img/result.png}
-  %   \caption{実行結果}
-  % \end{figure}
-
-  \begin{document}
+% ---begin document---
+\begin{document}
 
   \maketitle
   \begin{table}[b]
     \centering
     \begin{tabular}{:c:r:}
       \hdashline
-      報告者 & 橋爪 黎  530 \\
+      報告者 & \NAME \quad \CLASSNUMBER \\
+      \hdashline
+      共同実験者 & \NAME \quad \CLASSNUMBER \\
+      & \NAME \quad \CLASSNUMBER \\
+      & \NAME \quad \CLASSNUMBER \\
+      & \NAME \quad \CLASSNUMBER \\
+      & \NAME \quad \CLASSNUMBER \\
+      \hdashline
+      天候 & \WEATHER \\
+      \hdashline
+      室温 & \TEMPERATURE \\
+      \hdashline
+      湿度 & \HUMIDITY \\
       \hdashline
       提出日 & \today \\
       \hdashline
@@ -51,10 +42,17 @@
 
   \newpage
 
-  \centerline{\Large }
-  \rightline{提出者:橋爪 黎}
-  \rightline{提出日:\today}
+  \centerline{\Large \TITLE}
+  \rightline{提出者:\quad \NAME \quad \CLASSNUMBER}
+  \rightline{提出日:\quad \today}
 
-  
+  \section{rhappy sty package}
+    \subsection{Code, CodeInline}
+      It reads file from \CodeInline{public/code/.tex}. \\
+      \input{public/code/kadai1.tex}
+    \subsection{Figure}
+      This is Figure. \\
+      \Figure{width=0.5\linewidth}{./public/img/kadai3-3_excel.png}{here is caption}
+
 
 \end{document}
