@@ -22,7 +22,7 @@
     keywordstyle={\small\bfseries},
     ndkeywordstyle={\small},
     stringstyle={\small\ttfamily},
-    frame={tb},
+    frame={lines},
     breaklines=true,
     columns=[l]{fullflexible},
     numbers=left,
@@ -43,11 +43,12 @@
 
 % Fiugre is here =================================================
 
-\newcommand{\Figure}[3]{
+\newcommand{\Figure}[4]{
   \begin{figure}[h]
     \centering
     \includegraphics[#1]{#2}
     \caption{#3}
+    \label{#4}
   \end{figure}
 }
 
