@@ -1,8 +1,8 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.9.21)  28 SEP 2023 16:00
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.9.21)  7 JAN 2024 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report.tex
+**./report.tex
 (./report.tex
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-06-01> patch level 1
@@ -108,6 +108,14 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
+(c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count268
+\float@exts=\toks20
+\float@box=\box71
+\@float@everytoks=\toks21
+\@floatcapt=\box72
+)
 (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -132,34 +140,34 @@ File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 Package: arydshln 2019/02/21 v1.76 
 \dashlinedash=\dimen168
 \dashlinegap=\dimen169
-\adl@box=\box71
+\adl@box=\box73
 \adl@height=\dimen170
 \adl@heightsave=\dimen171
 \adl@depth=\dimen172
 \adl@depthsave=\dimen173
 \adl@finaldepth=\dimen174
-\adl@columns=\count268
-\adl@ncol=\count269
-\adl@currentcolumn=\count270
-\adl@currentcolumnsave=\count271
-\adl@totalheight=\count272
-\adl@totalheightsave=\count273
-\adl@dash=\count274
-\adl@gap=\count275
-\adl@cla=\count276
-\adl@clb=\count277
-\adl@everyvbox=\toks20
+\adl@columns=\count269
+\adl@ncol=\count270
+\adl@currentcolumn=\count271
+\adl@currentcolumnsave=\count272
+\adl@totalheight=\count273
+\adl@totalheightsave=\count274
+\adl@dash=\count275
+\adl@gap=\count276
+\adl@cla=\count277
+\adl@clb=\count278
+\adl@everyvbox=\toks22
 \adl@LTpagetotal=\dimen175
 )
 (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2023-04-19 L3 backend support: dvips
-\l__pdf_internal_box=\box72
-\g__pdf_backend_object_int=\count278
-\l__pdf_backend_content_box=\box73
-\l__pdf_backend_model_box=\box74
-\g__pdf_backend_annotation_int=\count279
-\g__pdf_backend_link_int=\count280
-\g__pdf_backend_link_sf_int=\count281
+\l__pdf_internal_box=\box74
+\g__pdf_backend_object_int=\count279
+\l__pdf_backend_content_box=\box75
+\l__pdf_backend_model_box=\box76
+\g__pdf_backend_annotation_int=\count280
+\g__pdf_backend_link_int=\count281
+\g__pdf_backend_link_sf_int=\count282
 )
 (./report.aux)
 \openout1 = `report.aux'.
@@ -182,7 +190,7 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
-\c@lstlisting=\count282
+\c@lstlisting=\count283
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 16.60605pt on input line 20.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -248,12 +256,12 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3565 strings out of 475586
- 50741 string characters out of 5777861
+ 3634 strings out of 475586
+ 51773 string characters out of 5777861
  1934621 words of memory out of 5000000
- 25120 multiletter control sequences out of 15000+600000
+ 25185 multiletter control sequences out of 15000+600000
  569629 words of font info for 92 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 72i,12n,79p,205b,1258s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,207b,1258s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on report.dvi (2 pages, 7252 bytes).
